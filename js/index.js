@@ -1,0 +1,198 @@
+var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'vertical',
+    initialSlide:0,
+    autoplayDisableOnInteraction:false,
+    grabCursor : true,
+    onInit: function(swiper){ 
+            swiperAnimateCache(swiper);  
+            swiperAnimate(swiper);
+        }, 
+        onSlideChangeEnd: function(swiper){ 
+            swiperAnimate(swiper);
+        }
+  })
+$(".renwu1").click(function(){
+    $(".profileone").animate({
+        width:"335px",
+        height:'517px',
+        top:'98px',
+        left:'28px',
+        opacity:1,
+    },500,'linear');  
+    $(".text11").css({
+        display:'none'
+    })
+})
+$(".renwu2").click(function(){
+     $(".profiletwo").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+     $(".text11").css({
+        display:'none'
+    })
+})
+
+$(".renwu3").click(function(){
+    $(".profilethree").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+    $(".text11").css({
+        display:'none'
+    })
+})
+
+$(".renwu4").click(function(){
+    $(".profilefour").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+    $(".text11").css({
+        display:'none'
+    })
+})
+
+$(".renwu5").click(function(){
+    $(".profilefive").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+    $(".text11").css({
+        display:'none'
+    })
+})
+$(".renwu6").click(function(){
+    $(".profilesix").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+})
+$(".renwu7").click(function(){
+   $(".profileseven").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+   $(".text11").css({
+        display:'none'
+    })
+})
+$(".renwu8").click(function(){
+    $(".profileeight").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+    $(".text11").css({
+        display:'none'
+    })
+})
+$(".renwu9").click(function(){
+    $(".profilenine").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+    $(".text11").css({
+        display:'none'
+    })
+})
+$(".renwu10").click(function(){
+    $(".profileten").animate({
+        width:"352px",
+        height:'517px',
+        top:'100px',
+        left:'20px',
+        opacity:1,
+    },500,'linear');
+    $(".text11").css({
+        display:'none'
+    })
+})
+$(".close").click(function(){
+    $(".profileone").animate({
+        width:"10px",
+        height:'10px',
+        top:'453px',
+        left:'197px',
+        opacity:0,
+    },500,'linear');
+    $(".profiletwo").animate({
+        width:"10px",
+        height:'10px',
+        top:'415px',
+        left:'320px',
+        opacity:0,
+    },500,'linear');
+    $(".profilethree").animate({
+        width:"10px",
+        height:'10px',
+        top:'550px',
+        left:'280px',
+        opacity:0,
+    },500,'linear');
+    $(".profilefour").animate({
+        width:"10px",
+        height:'10px',
+        top:'617px',
+        left:'100px',
+    },500,'linear');
+    $(".profilefive").animate({
+        width:"10px",
+        height:'10px',
+        top:'400px',
+        left:'40px',
+    },500,'linear');
+    $(".profilesix").animate({
+        width:"10px",
+        height:'10px',
+        top:'300px',
+        left:'230px',
+    },500,'linear');
+    $(".profileseven").animate({
+        width:"10px",
+        height:'10px',
+        top:'180px',
+        left:'320px',
+    },500,'linear');
+    $(".profileeight").animate({
+        width:"10px",
+        height:'10px',
+        top:'140px',
+        left:'220px',
+    },500,'linear');
+     $(".profilenine").animate({
+        width:"10px",
+        height:'10px',
+        top:'280px',
+        left:'130px',
+    },500,'linear');
+     $(".profileten").animate({
+        width:"10px",
+        height:'10px',
+        top:'170px',
+        left:'50px',
+    },500,'linear');
+})
